@@ -4,7 +4,8 @@
 
 int main(){
 	std::string a, b, x;
-	while(std::cin >> a >> b){
+	while(std::getline(std::cin,a)){
+		std::getline(std::cin,b);
 		x = "";
 		for(int i = 0; i < a.size(); i++){
 			for(int j = 0; j < b.size(); j++){
